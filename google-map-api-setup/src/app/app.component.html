@@ -1,5 +1,11 @@
 <div class="container-fluid">
-<agm-map [latitude]='latitude' [longitude]='longitude' >
-  <agm-marker [latitude]='latitude' [longitude]='longitude'></agm-marker>
-</agm-map>
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      <agm-map [latitude]='latitude' [longitude]='longitude' >
+        <agm-marker [latitude]='latitude' [longitude]='longitude'>
+          <agm-info-window> {{ infoWindowText }}</agm-info-window>
+        </agm-marker>
+      </agm-map>
+    </div>
+  </div>
 </div>
