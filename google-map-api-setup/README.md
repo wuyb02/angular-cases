@@ -12,7 +12,7 @@ Choose the created project, “APIs & Services” -> “Credential”, “Create
 
 Under “APIs & Services” -> “Dashboard”, “Enable API & Services”, search “Google map”, Choose “Maps Javascript API”, “Enable”. Then go to “Quotas”, make sure “map loads per day” is unlimited. If not, update billing info and refresh.
 
-Detailed step follows DesignCourse “Angular 7 Google Maps Tutorial with IPAPI (Plotting a User's Location)”, [YouTube](https://www.youtube.com/watch?v=-IwTQgKIjCQ), 18min.
+Detailed step follows DesignCourse “Angular 7 Google Maps Tutorial with IPAPI (Plotting a User's Location)”, [YouTube](https://www.youtube.com/watch?v=-IwTQgKIjCQ), 18min. Or follow Google document “Get an API Key”, [link](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
 ## Create the project from scratch
 Create the project, and install google map API and bootstrap from NPM.

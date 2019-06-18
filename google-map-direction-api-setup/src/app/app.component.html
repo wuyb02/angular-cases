@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      <agm-map [latitude]="lat" [longitude]="lng">
+        <agm-direction
+          [origin]="origin"
+          [destination]="destination"
+          (onResponse)="onResponse($event)" >
+        </agm-direction>
+      </agm-map>
+      <h5>Destination: {{ destination }}</h5>
+      <h5>Current location: {{ origin }}</h5>
+      <h5>Estimate of arrival: {{ duration }}</h5>
+    </div>
+  </div>
+</div>
