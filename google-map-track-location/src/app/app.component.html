@@ -5,11 +5,13 @@
         <agm-direction
           [origin]="origin"
           [destination]="destination"
+          [renderOptions]="renderOptions"
+          [markerOptions]="markerOptions"
           (onResponse)="onResponse($event)" >
         </agm-direction>
       </agm-map>
-      <h5>Destination: {{ destination }}</h5>
-      <h5>Current location: {{ origin }}</h5>
+      <h5>Client address: {{ destination }}</h5>
+      <h5>Driver location: lattitude {{ origin.lat }}, longitude {{ origin.lng }}</h5>
       <h5>Estimate of arrival: {{ duration }}</h5>
     </div>
   </div>

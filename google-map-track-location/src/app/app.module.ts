@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { AgmCoreModule } from '@agm/core';     // @agm/core
 import { AgmDirectionModule } from 'agm-direction';   // agm-direction
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { AgmDirectionModule } from 'agm-direction';   // agm-direction
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({ // @agm/core
-      apiKey: 'AIzaSyAld2TARif8Uqsfdi7zsROGRQlJ36RFbbg',
+      apiKey: environment.googleMapAPIKey,
     }),
     AgmDirectionModule,     // agm-direction
   ],

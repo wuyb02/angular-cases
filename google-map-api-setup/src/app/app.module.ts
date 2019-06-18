@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import {AgmCoreModule} from '@agm/core';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import {AgmCoreModule} from '@agm/core';
     BrowserModule,
     HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAld2TARif8Uqsfdi7zsROGRQlJ36RFbbg'
+      apiKey: environment.googleMapAPIKey
     })
   ],
   providers: [],

@@ -72,5 +72,33 @@ export class AppComponent {
 }
 ```
 
+## Hide Google map API key for code sharing?
+The google map API key is used in “app.module.ts”. In uploading the code to GitHub, the API key is explicitly shown. Google would complain as “publicly accessible google API key”. \
+One solution is to save the “API key” in “environments/environment.ts” and “environments/environment.prod.ts”. For example, in “environments/environment.ts”
+```
+export const environment = {
+  production: false,
+  googleMapAPIKey: 'GOOGLE_MAP_API_KEY'
+};
+```
+in “app.module.ts”
+```
+...
+import {environment} from '../environments/environment';
+
+@NgModule({
+  ...
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AgmCoreModule.forRoot({
+      apiKey: environment.googleMapAPIKey
+    })
+  ],
+  ...
+})
+export class AppModule { }
+```
+
 ## Reference
 A list of Inputs and Outputs of “agm-map” can be found at “Components AgmMap”, [link](https://angular-maps.com/api-docs/agm-core/components/agmmap).
