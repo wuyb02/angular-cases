@@ -7,3 +7,6 @@ Step-by-step instructions on setting up Google console and get a token to enable
 
 **google-map-direction-api-setup**\
 Show directions between two locations on google map by calling Google Map API and Google Direction API. The estimated time of arrival is also given. See the app [in action](https://map-direction-api-setup.firebaseapp.com/).
+
+**google-map-track location**\
+Track your current location on Google Map. Show in real time the path between your current location and the destination while you move. Customize the location marker. See the app [in action](https://map-track-location.firebaseapp.com/).
