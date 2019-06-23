@@ -13,3 +13,6 @@ Track your current location on Google Map. Show in real time the path between yo
 
 **data-binding-practice**\
 Demonstrate string interpolation, property binding, event binding, and 2-way binding. It is course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 2 “Practicing Databinding”. See the app [in action](https://data-binding-practice.firebaseapp.com/).
+
+**directive-practice**\
+Demonstrate structural directive (ngFor and ngIf) and attribute direction (ngStyle and ngClass). It is course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 3 “Practicing Directive”. See the app [in action](https://directive-practice.firebaseapp.com/).

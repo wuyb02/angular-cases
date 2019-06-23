@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      <button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button>
+      <p *ngIf="isDisplayed">Set Password = tuna</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item"
+          *ngFor="let clickLog of clickLogs"
+          [ngStyle]="{backgroundColor: clickLog.num>=5? 'blue': 'transparent'}"
+          [ngClass]="{'white-color': clickLog.num>=5}"
+        >Click {{clickLog.num}} at {{clickLog.timestamp | date: 'medium'}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
