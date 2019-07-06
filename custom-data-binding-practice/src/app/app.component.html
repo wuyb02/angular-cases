@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      <app-game-control (numberCountedUp)="onNumberCountedUp($event)" ></app-game-control>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5 offset-md-1">
+      <h4>Odd Elements</h4>
+      <app-odd
+        *ngFor="let oddNumber of oddNumbers"
+        [num]="oddNumber"
+      ></app-odd>
+    </div>
+    <div class="col-md-5 offset-md-1">
+      <h4>Even Elements</h4>
+      <app-even
+        *ngFor="let evenNumber of evenNumbers"
+        [num]="evenNumber"
+      ></app-even>
+    </div>
+  </div>
+</div>

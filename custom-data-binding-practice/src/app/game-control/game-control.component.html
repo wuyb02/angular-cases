@@ -1,0 +1,5 @@
+<button
+  class="btn btn-primary"
+  (click)="onGameControl()"
+  [ngClass]="{'btn-primary': !isCountStarted, 'btn-danger': isCountStarted}"
+>{{ !isCountStarted? "Start Counting" : "Stop Counting" }}</button>
