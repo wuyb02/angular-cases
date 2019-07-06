@@ -10,7 +10,7 @@ Course practice of Udemy â€œAugular 8 (formerly Angular 2) - The complete Guideâ
 - Style the element (e.g. paragraph) holding your output text differently in both component.
 <center><img src="./demo.gif" width="600px"></center>
 
-Also see the app [in action]((https://custom-databinding-practice.firebaseapp.com/)).
+Also see the app [in action](https://custom-databinding-practice.firebaseapp.com/).
 
 ## Project interface & Dataflow & Documentation
 **Decompose the project into Components**
