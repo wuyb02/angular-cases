@@ -16,6 +16,7 @@ Demonstrate string interpolation, property binding, event binding, and 2-way bin
 
 **directive-practice**\
 Demonstrate structural directive (ngFor and ngIf) and attribute direction (ngStyle and ngClass). It is course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 3 “Practicing Directive”. See the app [in action](https://directive-practice.firebaseapp.com/).
+<center><img src="directive-practice/demo.gif" width="600px"></center>
 
 **custom-data-binding-practice**\
 Demonstrate custom property and event binding with @Input and @Output. It is course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 4 “Practicing property and event binding”. See the app [in action](https://custom-databinding-practice.firebaseapp.com/).
