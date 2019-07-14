@@ -23,5 +23,9 @@ Demonstrate custom property and event binding with @Input and @Output. It is cou
 <center><img src="custom-data-binding-practice/demo.gif" width="600px"></center>
 
 **[service-practice](./service-practice)**\
-Demonstrate using Service to centralize function and share data. Course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 5 “Practicing Services”. See the app [in action](https://service-practice-udemy.firebaseapp.com/).
-<center><img src="service-practice/demo.gif" width="600px"></center>
+Demonstrate using Service to centralize function and share data. It is course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 5 “Practicing Services”. See the app [in action](https://service-practice-udemy.firebaseapp.com/).
+<center><img src="service-practice/demo.gif" width="600px"></center>'
+
+**[form-template-driven-practice](./form-template-driven-practice)**\
+Demonstrate template-driven form input and validators. It is course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 6 “Practicing Template-Driven Forms”. See the app [in action](https://form-template-driven-practice.firebaseapp.com/).
+<center><img src="form-template-driven-practice/demo.gif" width="600px"></center>'
