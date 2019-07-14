@@ -21,3 +21,7 @@ Demonstrate structural directive (ngFor and ngIf) and attribute direction (ngSty
 **[custom-data-binding-practice](./custom-data-binding-practice)**\
 Demonstrate custom property and event binding with @Input and @Output. It is course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 4 “Practicing property and event binding”. See the app [in action](https://custom-databinding-practice.firebaseapp.com/).
 <center><img src="custom-data-binding-practice/demo.gif" width="600px"></center>
+
+**[service-practice](./service-practice)**\
+Demonstrate using Service to centralize function and share data. Course practice of Udemy “Augular 8 (formerly Angular 2) - The complete Guide”, Assignment 5 “Practicing Services”. See the app [in action](https://service-practice-udemy.firebaseapp.com/).
+<center><img src="service-practice/demo.gif" width="600px"></center>

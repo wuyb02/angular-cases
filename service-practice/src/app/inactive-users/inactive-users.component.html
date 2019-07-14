@@ -1,0 +1,8 @@
+<h2>Inactive Users</h2>
+<app-inactive-user
+  *ngFor = "let user of users; let index=index"
+  [userName]="user"
+  [index]="index"
+  (requestSetUserToActive)="onRequestSetUserToActive($event)"
+></app-inactive-user>
+<p>number of inactive -> active operations: {{nOpInactiveToActive}}</p>
