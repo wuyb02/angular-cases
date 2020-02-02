@@ -1,0 +1,55 @@
+  <div class="row">
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn btn-primary" (click)="onNewRecipe()">New Recipe</button>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 list-group">
+          <a
+            class="list-group-item clearfix"
+            *ngFor="let recipe of recipes; let index=index"
+            style="cursor: pointer; text-decoration: none;"
+            routerLinkActive="active"
+            [routerLink]="[index]"
+          >
+            <div class="row">
+              <div class="pull-left col-xs-8">
+                <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+                <p class="list-group-item-text">{{ recipe.description }}</p>
+              </div>
+              <div class="pull-right col-xs-4">
+                <img
+                  [src]="recipe.imagePath"
+                  [alt]="recipe.name"
+                  class="img-responsive"
+                  style="max-height: 50px;">
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-7">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+
+  <!--
+            <span class="row">
+              <div class="col-9">
+                <h5 class="mb-1">{{ recipe.name }}</h5>
+                <p class="mb-1">{{ recipe.description }}</p>
+              </div>
+              <div class="col-3 m-0">
+                <img [src]="recipe.imagePath" [alt]="recipe.name" class="img-responsive float-right" style="max-height: 50px;">
+              </div>
+            </span>
+  -->

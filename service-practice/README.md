@@ -17,4 +17,4 @@ Also see the app [in action](https://service-practice-udemy.firebaseapp.com).
 <center><img src="./dataflow.png" width="600px"></center>
 
 **Project documentation**\
-More detailed description of the code can be found in the [documentation](http://ec2-13-58-36-226.us-east-2.compute.amazonaws.com/angular-cases-docs/service-practice/index.html).
+More detailed description of the code can be found in the [documentation](http://ec2-3-15-194-248.us-east-2.compute.amazonaws.com/angular-cases-docs/service-practice/index.html).

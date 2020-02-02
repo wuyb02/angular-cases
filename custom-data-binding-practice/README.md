@@ -20,4 +20,4 @@ Also see the app [in action](https://custom-databinding-practice.firebaseapp.com
 <center><img src="./dataflow.png" width="600px"></center>
 
 **Project documentation**\
-More detailed description of the code can be found in the [documentation](http://ec2-13-58-36-226.us-east-2.compute.amazonaws.com/angular-cases-docs/custom-data-binding-practice/index.html).
+More detailed description of the code can be found in the [documentation](http://ec2-3-15-194-248.us-east-2.compute.amazonaws.com/angular-cases-docs/custom-data-binding-practice/index.html).
